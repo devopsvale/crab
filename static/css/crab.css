@@ -41,6 +41,8 @@ a:hover {
 
 #site-slogan,
 #footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: #777;
 }
 
@@ -50,7 +52,7 @@ a:hover {
 
 nav {
   clear: both;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 nav ul {
@@ -92,11 +94,12 @@ hr {
 }
 
 #content {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 #article {
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 h1,
@@ -107,10 +110,6 @@ h5,
 h6 {
   font-family: 'Lora', serif;
   font-weight: 400;
-}
-
-#article p, #article ol li, #article ul li {
-  text-align: justify;
 }
 
 #article blockquote {
@@ -151,7 +150,7 @@ span.upper {
 img {
   max-width: 100%;
 }
- 
+
 img.right {
   float: right;
   margin: 0 0 1em 1em;
@@ -166,6 +165,7 @@ img.left {
   clear: both;
   padding-top: 2em;
   font-size: 90%;
+  margin-bottom: 3em;
 }
 
 ul.pagination {
@@ -256,4 +256,4 @@ ul.pagination {
     left: 608px;
     width: 342px;
   }
-}
+
