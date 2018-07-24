@@ -7,7 +7,7 @@
   {{ if isset .Params "cover" }}
   <img src="{{.Params.cover}}" alt="{{.Params.coverdesc}}">
   {{ end }}
-  {{ .Summary }}
+  {{ .Description | safeHTML }}
   {{ if .Truncated }}
     ... <a href="{{ .Permalink }}">Read more &hellip;</a>
   {{ end }}

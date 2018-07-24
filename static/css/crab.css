@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:400,400i,600,600i,700,700i');
 
 html,
 body {
   background: #fff;
   color: #333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Avenir,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
 #container {
@@ -24,7 +23,7 @@ a:link,
 a:active,
 a:visited,
 a:hover {
-  color: #1da8be;
+  color: #333;
 }
 
 #site-title {
@@ -127,6 +126,36 @@ h6 {
   font-weight: normal;
 }
 
+
+.formspree input, .formspree textarea {
+  font-size: 0.8rem;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.3rem 2%;
+  margin: 1.2rem 1rem 1.2rem 0;
+  line-height: 1.5rem;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: block;
+  max-width: 500px;
+}
+
+.formspree button {
+  color: #999;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid #d5d5d5;
+  background: #fff;
+  font-size: .8rem;
+  padding: .5rem 1.2rem; 
+}
+
+.formspree button:hover {
+    background: #f5f5f5; 
+}
+
+
 #article .timestamp,
 #article .tags,
 #article .tags a:link,
@@ -189,7 +218,14 @@ ul.pagination {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 990px) {
+  #summary {
+    border-bottom: 1px dashed #aaa;
+  }
+
+  #header {
+    border-bottom: 1px dashed #aaa;
+  }
 }
 
 @media (min-width: 992px) {
